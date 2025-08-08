@@ -1,12 +1,32 @@
-# React + Vite
+# 🎬 Movie Info App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The **Movie Info App** is a responsive React-based web application that allows users to search for movies, view detailed information, and manage a list of their favorite films. It fetches real-time movie data from the [OMDb API](https://www.omdbapi.com/).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔍 Search for movies by title
+- 🎭 Filter results by type (movie, series, episode)
+- 📄 View full details of a selected movie
+- ⭐ Add/remove movies from your favorites
+- 💾 Favorites are saved using `localStorage`
+- 🌙 Light/Dark mode toggle (with persistence)
+- 📱 Responsive UI using Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖥️ Live Demo
+
+>[Live_site](https://movie-info-beta-lemon.vercel.app/)
+
+---
+
+
+## 🛠️ Tech Stack
+
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Router](https://reactrouter.com/)
+- [OMDb API](https://www.omdbapi.com/)
+
